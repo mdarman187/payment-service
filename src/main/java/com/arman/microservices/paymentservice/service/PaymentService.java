@@ -31,7 +31,7 @@ public class PaymentService {
 
 
     public String paymentProcessing(){
-        //rd party payment gateway (paypal,paytm...)
+        //Third party payment gateway (paypal,paytm...)
         return new Random().nextBoolean()?"success":"false";
     }
 
